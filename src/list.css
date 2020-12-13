@@ -1,0 +1,35 @@
+input {
+    margin-top: 10px;
+    height: 25px;
+    line-height: 25px;
+    text-indent: 10px;
+    width: 100%;
+}
+
+.list {
+    margin: 5px;
+    width: 100%;
+}
+
+.list li {
+    padding: 5px;
+    background-color: darkgreen;
+    color: white;
+    font-weight: 500;
+}
+
+.list li span {
+    display: block;
+}
+
+.list li .name {
+    float: left;
+}
+
+.list li .phone {
+    float: right;
+}
+
+.clearfix {
+    clear: both;
+}
